@@ -1,6 +1,6 @@
 # Awesome-Generative-AI-Media-Generation
 
-# Top Generative AI Media Generation Ecosystem
+## Top Generative AI Media Generation Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Local Inference, Diffusion Model Workflows & Self-Hosted Creative Pipelines*  
