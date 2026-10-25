@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d17" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070a13" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <radialGradient id="orbGlow1" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbGlow2" cx="80%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orbGlow3" cx="50%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .orb-pulse-1 {
+      animation: pulse1 8s ease-in-out infinite alternate;
+    }
+    .orb-pulse-2 {
+      animation: pulse2 7s ease-in-out infinite alternate;
+    }
+    .grid-line {
+      stroke: #1f2937;
+      stroke-opacity: 0.35;
+      stroke-width: 1;
+    }
+    .wave-line {
+      fill: none;
+      stroke-width: 2;
+      opacity: 0.6;
+      animation: waveFloat 6s ease-in-out infinite alternate;
+    }
+    .node-pulse {
+      animation: blink 3s ease-in-out infinite alternate;
+    }
+    .badge-float {
+      animation: float 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse1 {
+      0% { transform: scale(1) translate(0px, 0px); opacity: 0.6; }
+      100% { transform: scale(1.15) translate(30px, -20px); opacity: 0.9; }
+    }
+    @keyframes pulse2 {
+      0% { transform: scale(1) translate(0px, 0px); opacity: 0.5; }
+      100% { transform: scale(1.2) translate(-25px, 20px); opacity: 0.85; }
+    }
+    @keyframes waveFloat {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-10px); }
+    }
+    @keyframes blink {
+      0% { opacity: 0.3; r: 3; }
+      50% { opacity: 0.9; r: 5; }
+      100% { opacity: 0.3; r: 3; }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-6px); }
+    }
+
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      fill: #9ca3af;
+      letter-spacing: 0.2px;
+    }
+    .tag-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: #e0e7ff;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="340" rx="16" fill="url(#bgGradient)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Animated Glowing Atmosphere (Background) -->
+  <circle cx="240" cy="90" r="220" fill="url(#orbGlow1)" class="orb-pulse-1" />
+  <circle cx="980" cy="240" r="260" fill="url(#orbGlow2)" class="orb-pulse-2" />
+  <circle cx="620" cy="180" r="180" fill="url(#orbGlow3)" />
+
+  <!-- Cybernetic Grid Backdrop -->
+  <g class="grid-layer">
+    <line x1="80" y1="0" x2="80" y2="340" class="grid-line" />
+    <line x1="200" y1="0" x2="200" y2="340" class="grid-line" />
+    <line x1="320" y1="0" x2="320" y2="340" class="grid-line" />
+    <line x1="440" y1="0" x2="440" y2="340" class="grid-line" />
+    <line x1="560" y1="0" x2="560" y2="340" class="grid-line" />
+    <line x1="680" y1="0" x2="680" y2="340" class="grid-line" />
+    <line x1="800" y1="0" x2="800" y2="340" class="grid-line" />
+    <line x1="920" y1="0" x2="920" y2="340" class="grid-line" />
+    <line x1="1040" y1="0" x2="1040" y2="340" class="grid-line" />
+
+    <line x1="0" y1="70" x2="1200" y2="70" class="grid-line" />
+    <line x1="0" y1="140" x2="1200" y2="140" class="grid-line" />
+    <line x1="0" y1="210" x2="1200" y2="210" class="grid-line" />
+    <line x1="0" y1="280" x2="1200" y2="280" class="grid-line" />
+  </g>
+
+  <!-- Flowing AI Generation Synapse Wave (Middle Layer) -->
+  <path d="M 50 250 Q 250 180 450 260 T 850 230 T 1150 210" stroke="url(#primaryGrad)" class="wave-line" filter="url(#glowFilter)" />
+  <path d="M 50 260 Q 280 320 550 230 T 950 270 T 1150 225" stroke="url(#cyanGrad)" class="wave-line" opacity="0.4" />
+
+  <!-- Animated Glowing Nodes -->
+  <circle cx="250" cy="180" r="4" fill="#ec4899" class="node-pulse" filter="url(#softGlow)" />
+  <circle cx="450" cy="260" r="4" fill="#8b5cf6" class="node-pulse" filter="url(#softGlow)" />
+  <circle cx="650" cy="245" r="4" fill="#3b82f6" class="node-pulse" filter="url(#softGlow)" />
+  <circle cx="850" cy="230" r="4" fill="#06b6d4" class="node-pulse" filter="url(#softGlow)" />
+  <circle cx="1050" cy="215" r="4" fill="#a855f7" class="node-pulse" filter="url(#softGlow)" />
+
+  <!-- Floating Dynamic Feature Badges (Positioned around borders to never overlap text) -->
+  <g class="badge-float" transform="translate(60, 42)">
+    <rect width="136" height="30" rx="15" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" opacity="0.9" />
+    <circle cx="16" cy="15" r="5" fill="#6366f1">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="20" class="tag-text">🎨 Text-to-Image</text>
+  </g>
+
+  <g class="badge-float" transform="translate(210, 42)" style="animation-delay: -1s;">
+    <rect width="134" height="30" rx="15" fill="#1e1b4b" stroke="#8b5cf6" stroke-width="1.2" opacity="0.9" />
+    <circle cx="16" cy="15" r="5" fill="#a855f7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="20" class="tag-text">🎬 Text-to-Video</text>
+  </g>
+
+  <g class="badge-float" transform="translate(820, 42)" style="animation-delay: -2s;">
+    <rect width="156" height="30" rx="15" fill="#0f2942" stroke="#06b6d4" stroke-width="1.2" opacity="0.9" />
+    <circle cx="16" cy="15" r="5" fill="#06b6d4">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="20" class="tag-text">⚡ ComfyUI Workflows</text>
+  </g>
+
+  <g class="badge-float" transform="translate(990, 42)" style="animation-delay: -1.5s;">
+    <rect width="150" height="30" rx="15" fill="#3b0728" stroke="#ec4899" stroke-width="1.2" opacity="0.9" />
+    <circle cx="16" cy="15" r="5" fill="#ec4899">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.9s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="20" class="tag-text">🔮 Diffusion Models</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Icon, Title, and Subtitle (Guaranteed in foreground) -->
+  <g transform="translate(60, 120)">
+    <!-- Brand Icon Spark -->
+    <g transform="translate(0, 0)">
+      <rect width="52" height="52" rx="14" fill="url(#primaryGrad)" filter="url(#glowFilter)" opacity="0.85" />
+      <path d="M26 12 L29 22 L39 25 L29 28 L26 38 L23 28 L13 25 L23 22 Z" fill="#ffffff" />
+      <circle cx="36" cy="14" r="2.5" fill="#ffffff" opacity="0.8" />
+    </g>
+
+    <!-- Main Title -->
+    <text x="68" y="38" class="title-text">
+      Awesome Generative AI Media Generation
+    </text>
+
+    <!-- Subtitle & Value Proposition -->
+    <text x="68" y="72" class="subtitle-text">
+      Curated ecosystem of SaaS tools, self-hosted diffusion pipelines, local inference runtimes &amp; creative workflows.
+    </text>
+
+    <!-- Highlights Bar -->
+    <g transform="translate(68, 100)">
+      <rect width="84" height="24" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="10" y="16" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#38bdf8">✨ SDXL &amp; FLUX</text>
+
+      <rect x="94" width="102" height="24" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="104" y="16" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#c084fc">⚡ Local Inference</text>
+
+      <rect x="206" width="96" height="24" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="216" y="16" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#4ade80">💻 Open Source</text>
+
+      <rect x="312" width="90" height="24" rx="12" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="322" y="16" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#fb923c">☁️ SaaS Studios</text>
+    </g>
+  </g>
+</svg>
