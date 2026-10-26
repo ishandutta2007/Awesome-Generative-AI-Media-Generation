@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Media-Generation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Media-Generation?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Media-Generation/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Generative-AI-Media-Generation?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Media-Generation/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Generative-AI-Media-Generation?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Media-Generation/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Generative-AI-Media-Generation/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -81,7 +81,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 1. 🖼️ [AUTOMATIC1111 / stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-[![GitHub stars](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=social&color=white)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/AUTOMATIC1111/stable-diffusion-webui?style=social&color=white)](https://github.com/AUTOMATIC1111/stable-diffusion-webui/stargazers)
 - **License**: GNU AGPL-3.0
 - **Modality**: Text-to-Image, Image-to-Image, Inpainting, Upscaling
 - **Description**: The legendary web interface that catalyzed open-source AI art. Features an expansive Gradio GUI, seamless LoRA and checkpoint switching, textual inversions, Deforum video synthesis, and thousands of community extensions.
@@ -90,7 +90,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 2. ⚡ [Comfy-Org / ComfyUI](https://github.com/Comfy-Org/ComfyUI)
-[![GitHub stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI?style=social&color=white)](https://github.com/Comfy-Org/ComfyUI/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Comfy-Org/ComfyUI?style=social&color=white)](https://github.com/Comfy-Org/ComfyUI/stargazers)
 - **License**: GNU GPL-3.0
 - **Modality**: Multimodal (Image, Video, Audio, 3D) Node Pipeline
 - **Description**: The undisputed production industry standard for diffusion workflows. Represents each step of the diffusion execution graph as a node — decoupling base checkpoints, LoRA blending, CLIP guidance, ControlNet conditioners, and latent upscaling into reproducible JSON schemas.
@@ -99,7 +99,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 3. 🔬 [CompVis / stable-diffusion](https://github.com/CompVis/stable-diffusion)
-[![GitHub stars](https://img.shields.io/github/stars/CompVis/stable-diffusion?style=social&color=white)](https://github.com/CompVis/stable-diffusion/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/CompVis/stable-diffusion?style=social&color=white)](https://github.com/CompVis/stable-diffusion/stargazers)
 - **License**: CreativeML Open RAIL-M
 - **Modality**: Latent Diffusion Foundation Models
 - **Description**: The historic reference implementation of Latent Diffusion Models (LDM) developed by the Machine Vision and Learning Group at LMU Munich in collaboration with Runway and Stability AI.
@@ -108,7 +108,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 4. 🎯 [lllyasviel / Fooocus](https://github.com/lllyasviel/Fooocus)
-[![GitHub stars](https://img.shields.io/github/stars/lllyasviel/Fooocus?style=social&color=white)](https://github.com/lllyasviel/Fooocus/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/lllyasviel/Fooocus?style=social&color=white)](https://github.com/lllyasviel/Fooocus/stargazers)
 - **License**: GNU GPL-3.0
 - **Modality**: One-Click Text-to-Image & Image-to-Image
 - **Description**: An offline, zero-configuration image generator engineered to bring Midjourney-style prompt ease to SDXL and local diffusion models. Features automatic negative prompting, dynamic samplers, intelligent face-swap, and cinematic prompt expansion out of the box.
@@ -117,7 +117,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 5. 🔊 [suno-ai / bark](https://github.com/suno-ai/bark)
-[![GitHub stars](https://img.shields.io/github/stars/suno-ai/bark?style=social&color=white)](https://github.com/suno-ai/bark/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/suno-ai/bark?style=social&color=white)](https://github.com/suno-ai/bark/stargazers)
 - **License**: MIT
 - **Modality**: Text-to-Audio, Multilingual Speech & Music
 - **Description**: Transformer-based text-to-audio foundation model developed by Suno. Generates expressive speech with nonverbal vocalizations (laughter, sighs, hesitation), realistic background ambiance, and musical melodies.
@@ -126,7 +126,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 6. 📚 [huggingface / diffusers](https://github.com/huggingface/diffusers)
-[![GitHub stars](https://img.shields.io/github/stars/huggingface/diffusers?style=social&color=white)](https://github.com/huggingface/diffusers/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/huggingface/diffusers?style=social&color=white)](https://github.com/huggingface/diffusers/stargazers)
 - **License**: Apache-2.0
 - **Modality**: Multimodal Diffusion Library (PyTorch)
 - **Description**: Hugging Face's foundational Python library for state-of-the-art diffusion pipelines. Supports FLUX.1, SDXL, Stable Video Diffusion, Kandinsky, and audio models with unified tensor scheduling, quantization, and LoRA loading.
@@ -135,7 +135,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 7. 🎛️ [lllyasviel / ControlNet](https://github.com/lllyasviel/ControlNet)
-[![GitHub stars](https://img.shields.io/github/stars/lllyasviel/ControlNet?style=social&color=white)](https://github.com/lllyasviel/ControlNet/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/lllyasviel/ControlNet?style=social&color=white)](https://github.com/lllyasviel/ControlNet/stargazers)
 - **License**: Apache-2.0
 - **Modality**: Spatial Condition Conditioning
 - **Description**: The revolutionary neural architecture that brought deterministic geometric control to diffusion models. Condition generation on human pose wireframes (OpenPose), Canny edge contours, depth maps, surface normals, and segmentations.
@@ -144,7 +144,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 8. 🌐 [Anil-matcha / Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI)
-[![GitHub stars](https://img.shields.io/github/stars/Anil-matcha/Open-Generative-AI?style=social&color=white)](https://github.com/Anil-matcha/Open-Generative-AI/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Anil-matcha/Open-Generative-AI?style=social&color=white)](https://github.com/Anil-matcha/Open-Generative-AI/stargazers)
 - **License**: MIT
 - **Modality**: 600+ Model Image & Video Studio UI
 - **Description**: A self-hosted, unrestricted creative studio connecting 50+ image models (Flux, SDXL, Midjourney styles) and 40+ video generators (Kling, Sora, Veo, Wan) with lip-syncing capabilities in an all-in-one web portal.
@@ -153,7 +153,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 9. 🎭 [facefusion / facefusion](https://github.com/facefusion/facefusion)
-[![GitHub stars](https://img.shields.io/github/stars/facefusion/facefusion?style=social&color=white)](https://github.com/facefusion/facefusion/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/facefusion/facefusion?style=social&color=white)](https://github.com/facefusion/facefusion/stargazers)
 - **License**: MIT
 - **Modality**: Face Swapping & Enhancement Engine
 - **Description**: Next-generation deepfake and video face-swapping software with hardware-accelerated rendering, real-time live preview, face lip-syncing, frame restoration, and color grading.
@@ -162,7 +162,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 10. 🎨 [invoke-ai / InvokeAI](https://github.com/invoke-ai/InvokeAI)
-[![GitHub stars](https://img.shields.io/github/stars/invoke-ai/InvokeAI?style=social&color=white)](https://github.com/invoke-ai/InvokeAI/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/invoke-ai/InvokeAI?style=social&color=white)](https://github.com/invoke-ai/InvokeAI/stargazers)
 - **License**: Apache-2.0
 - **Modality**: Professional Creative Studio & Infinite Canvas
 - **Description**: Studio-grade visual creation suite featuring an infinite unified canvas for seamless inpainting, outpainting, and multi-layer composition. Delivers the polish of Photoshop with dual workflow tabs offering optional ComfyUI-style node graphs.
@@ -171,7 +171,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 11. 🔮 [black-forest-labs / flux](https://github.com/black-forest-labs/flux)
-[![GitHub stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=social&color=white)](https://github.com/black-forest-labs/flux/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/black-forest-labs/flux?style=social&color=white)](https://github.com/black-forest-labs/flux/stargazers)
 - **License**: Apache-2.0 (Schnell) / Non-Commercial (Dev)
 - **Modality**: 12B Rectified Flow Transformer Models
 - **Description**: Official open-weight repository from Black Forest Labs (created by the original Stable Diffusion inventors). Includes FLUX.1 [schnell] for ultra-fast 4-step generation and FLUX.1 [dev] for benchmark-topping anatomical realism and text generation.
@@ -180,7 +180,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 12. 🎼 [facebookresearch / audiocraft](https://github.com/facebookresearch/audiocraft)
-[![GitHub stars](https://img.shields.io/github/stars/facebookresearch/audiocraft?style=social&color=white)](https://github.com/facebookresearch/audiocraft/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/audiocraft?style=social&color=white)](https://github.com/facebookresearch/audiocraft/stargazers)
 - **License**: MIT
 - **Modality**: Generative Music & Acoustic Sound Effects
 - **Description**: Meta AI's comprehensive PyTorch suite for generative audio. Houses MusicGen (high-fidelity stereo musical synthesis from text descriptions) and AudioGen (environmental sound effects), powered by EnCodec neural compression.
@@ -189,7 +189,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 13. 🍏 [divamgupta / diffusionbee-stable-diffusion-ui](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui)
-[![GitHub stars](https://img.shields.io/github/stars/divamgupta/diffusionbee-stable-diffusion-ui?style=social&color=white)](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/divamgupta/diffusionbee-stable-diffusion-ui?style=social&color=white)](https://github.com/divamgupta/diffusionbee-stable-diffusion-ui/stargazers)
 - **License**: GNU GPL-3.0
 - **Modality**: Native macOS Offline Generator
 - **Description**: The simplest offline application to run Stable Diffusion on Apple Silicon (M1, M2, M3, M4 Macs). Requires zero terminal setup or Python knowledge, running completely offline with Metal Performance Shaders (MPS).
@@ -198,7 +198,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 14. 🎬 [zai-org / CogVideo](https://github.com/zai-org/CogVideo)
-[![GitHub stars](https://img.shields.io/github/stars/zai-org/CogVideo?style=social&color=white)](https://github.com/zai-org/CogVideo/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/zai-org/CogVideo?style=social&color=white)](https://github.com/zai-org/CogVideo/stargazers)
 - **License**: Apache-2.0
 - **Modality**: Text-to-Video Diffusion Transformer (DiT)
 - **Description**: Advanced open-source video generation framework (CogVideoX) developed by THUDM / Zhipu AI. Generates fluid, temporally coherent video clips up to 4K resolution using 3D variational autoencoders and expert transformer backbones.
@@ -207,7 +207,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 15. 🖌️ [Acly / krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion)
-[![GitHub stars](https://img.shields.io/github/stars/Acly/krita-ai-diffusion?style=social&color=white)](https://github.com/Acly/krita-ai-diffusion/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Acly/krita-ai-diffusion?style=social&color=white)](https://github.com/Acly/krita-ai-diffusion/stargazers)
 - **License**: GNU GPL-3.0
 - **Modality**: Digital Painting & Live Inpainting Plugin
 - **Description**: Transform the open-source Krita digital painting software into a real-time generative canvas. Features live canvas brush generation, inpainting, outpainting, and ControlNet posing connected seamlessly to a local ComfyUI server.
@@ -216,7 +216,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 16. 🚀 [easydiffusion / easydiffusion](https://github.com/easydiffusion/easydiffusion)
-[![GitHub stars](https://img.shields.io/github/stars/easydiffusion/easydiffusion?style=social&color=white)](https://github.com/easydiffusion/easydiffusion/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/easydiffusion/easydiffusion?style=social&color=white)](https://github.com/easydiffusion/easydiffusion/stargazers)
 - **License**: MIT
 - **Modality**: 1-Click Multi-Platform Web UI
 - **Description**: Zero-hassle, single-click installer for Stable Diffusion across Windows, Linux, and macOS. Provides automatic model downloads, GPU memory optimizations, background task queues, and clean browser interfaces.
@@ -225,7 +225,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 17. 🤖 [11cafe / jaaz](https://github.com/11cafe/jaaz)
-[![GitHub stars](https://img.shields.io/github/stars/11cafe/jaaz?style=social&color=white)](https://github.com/11cafe/jaaz/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/11cafe/jaaz?style=social&color=white)](https://github.com/11cafe/jaaz/stargazers)
 - **License**: Apache-2.0
 - **Modality**: Agentic Multimodal Design Canvas
 - **Description**: Open-source multimodal AI design agent and local Canva / Manus alternative. Delivers interactive object insertion, multi-character coherence, scene storyboarding, and local LLM routing through Ollama and ComfyUI.
@@ -234,7 +234,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 18. 🌀 [deforum / deforum-stable-diffusion](https://github.com/deforum/deforum-stable-diffusion)
-[![GitHub stars](https://img.shields.io/github/stars/deforum/deforum-stable-diffusion?style=social&color=white)](https://github.com/deforum/deforum-stable-diffusion/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/deforum/deforum-stable-diffusion?style=social&color=white)](https://github.com/deforum/deforum-stable-diffusion/stargazers)
 - **License**: MIT
 - **Modality**: 2D/3D Algorithmic Animation Engine
 - **Description**: Community-driven animation framework that turns Stable Diffusion into a psychedelic, camera-driven video synthesizer. Controls 3D camera pan, tilt, zoom, and audio-reactive frequency keyframing.
@@ -243,7 +243,7 @@ The repositories below are **strictly ranked in descending order by GitHub starg
 ---
 
 ### 19. 📱 [drawthingsai / draw-things-community](https://github.com/drawthingsai/draw-things-community)
-[![GitHub stars](https://img.shields.io/github/stars/drawthingsai/draw-things-community?style=social&color=white)](https://github.com/drawthingsai/draw-things-community/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/drawthingsai/draw-things-community?style=social&color=white)](https://github.com/drawthingsai/draw-things-community/stargazers)
 - **License**: Community / App Store
 - **Modality**: On-Device Apple Silicon / Mobile Diffusion
 - **Description**: The community and extensions ecosystem for Draw Things — the hyper-optimized 8-bit quantized on-device diffusion app for iPhone, iPad, and Apple Silicon Macs with ComfyUI gRPC bridging.
@@ -273,7 +273,7 @@ Contributions from the generative AI community are warmly welcome! To propose ne
 2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-tool`.
 3. 📝 **Add your entry** under the appropriate section following the existing format:
    - Provide verified starting prices and free tier limits for SaaS products.
-   - For open-source tools, include the repository URL, description, and official star badge linking to `/stargazers`.
+   - For open-source tools, include the repository URL, description, and official Stars_Badge linking to `/stargazers`.
 4. 📬 **Submit a Pull Request** with a concise description of why the tool is significant to the generative media ecosystem.
 
 ---
